@@ -5,7 +5,7 @@ public class Main {
   public static void main(String[] args) {
     Lexicon lex = new Lexicon();
 
-    String newWord = lex.translate("food");
+    String newWord = lex.translate("");
     System.out.println(newWord);
 
   }
@@ -16,7 +16,18 @@ public class Main {
    * @param word The single word to be decoded.
    */
   public static String decode(String word) {
-    return "";
+	  int index = word.indexOf("ent");
+	  
+	  if(index + 3 != word.length())
+	  {
+		  
+	  }
+	  else
+	  {
+		  
+	  }
+	  
+	  return "";
   }
 
   /**
